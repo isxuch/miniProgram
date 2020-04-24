@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="add-btn" bindtap="addGoods" >
+    添加按钮
+  </view>
+  <view class="good_box" hidden="{{hide_good_box}}" style="left: {{bus_x}}px; top: {{bus_y}}px;">
+  </view>
+  <view class="gwc">购物车</view>
+</view>
